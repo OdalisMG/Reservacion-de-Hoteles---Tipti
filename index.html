@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservacion de Hoteles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reservación de Hoteles</h1>
+        <form id="reservation-form">
+            <label for="dates">Fechas (separadas por comas, formato: dd-MMM-yyyy):</label>
+            <input type="text" id="dates" placeholder="16-Mar-2009, 17-Mar-2009">
+            <label for="customer-type">Tipo de Cliente:</label>
+            <select id="customer-type">
+                <option value="Regular">Regular</option>
+                <option value="Rewards">Rewards</option>
+            </select>
+            <button type="button" onclick="findCheapestHotel()">Buscar Hotel Más Barato</button>
+            <p id="error-message" style="color: red; display: none;">Formato de fecha incorrecto. Por favor, use dd-MMM-yyyy.</p>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

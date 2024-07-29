@@ -1,0 +1,45 @@
+// Reservacion de Hoteles //
+
+//Requerimientos:
+
+//Escribe un programa que ayude a un cliente encontrar el hotel más barato. Se debe permitir
+//ingresar una o más fechas para un cliente regular o con recompensas. La salida debe regresar
+//el hotel más barato disponible entre el tipo de cliente y las fechas. En caso de empate, se debe 
+//devolver el hotel con la calificación más alta. La respuesta debe destacar en la lista de hoteles.
+
+
+//Explicación del Código: 
+
+//HTML
+
+//- Un formulario básico para ingresar las fechas y seleccionar el tipo de cliente.
+//- Un contenedor para mostrar los resultados.
+
+//CSS
+
+//- Estilos básicos para el formulario y las tarjetas de los hoteles.
+//- Incluye espacio para imágenes.
+
+//JavaScript
+
+//- Un arreglo de objetos que representa los hoteles con sus tarifas y calificaciones.
+//- Función findCheapestHotel que calcula el hotel más barato basado en las fechas ingresadas y el tipo de cliente.
+//- Función displayResults que muestra la tarjeta del hotel más barato encontrado.
+//- Este ejemplo te proporciona una base funcional que puedes ampliar y mejorar según tus necesidades específicas.
+
+//Explicacion de cambios
+
+//Validación de Fecha
+
+//- Se implementa la función isValidDate para asegurar que las fechas ingresadas sigan el formato dd-MMM-yyyy.
+//- La función parseDate convierte las fechas del formato dd-MMM-yyyy a objetos Date de JavaScript.
+
+//Manejo de Errores:
+
+//- Se agrega un mensaje de error en el formulario que se muestra si alguna de las fechas ingresadas no es válida.
+//- Procesamiento de Fechas:
+
+//- Se utilizan las funciones de validación y conversión para manejar las fechas correctamente al calcular el hotel más barato.
+
+// Nombre: Odalis Magdalena Garcia Pincay
+// Fecha de entrega: 2024 - 07 - 28
